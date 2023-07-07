@@ -1,0 +1,91 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.1) !important;
+  z-index: 999;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.left img {
+  height: 70px;
+}
+
+.left .browse {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.56);
+  padding: 7px 16px;
+  margin-left: 16px;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 16px;
+}
+
+.left .search {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  width: 40rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
+    0 -1px 1px 0 rgba(0, 0, 0, 0.14);
+  height: 42px;
+  padding-left: 10px;
+  background-color: #ffffff;
+}
+
+.left .search input {
+  margin-left: 3px;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right .programs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.right .login {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.right .signup {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #176ae5;
+  height: 40px;
+  border-radius: 4px;
+  width: 100px;
+  color: #fff;
+}
