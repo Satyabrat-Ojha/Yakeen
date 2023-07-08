@@ -1,0 +1,55 @@
+.courses {
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  max-width: 1220px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.toggle {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.toggle button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3.8px 11px 0 rgba(0, 0, 0, 0.12),
+    0 0.5px 5px 0 rgba(0, 0, 0, 0.04);
+}
+
+.active {
+  background-color: var(--clr-blue-500);
+  color: #fff;
+}
+
+.inactive {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.courseList {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}

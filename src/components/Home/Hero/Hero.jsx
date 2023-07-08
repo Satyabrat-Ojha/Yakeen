@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <small>GREAT LEARNING ACADEMY</small>
+          <small>YAKEEN THE LEARNING ACADEMY</small>
           <h1>
             Learn Job ready skills from
             <span className={styles.textOrange}> free </span>
