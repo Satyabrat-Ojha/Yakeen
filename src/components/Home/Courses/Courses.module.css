@@ -51,5 +51,6 @@
 .courseList {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
+  padding: 3rem;
+  overflow-x: scroll;
 }
