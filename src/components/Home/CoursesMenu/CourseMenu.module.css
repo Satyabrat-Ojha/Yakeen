@@ -1,0 +1,78 @@
+.courseMenu {
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 1rem 3rem 2rem;
+}
+
+.heading {
+  padding: 1rem 1rem 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.browse {
+  padding: 0 1.5rem 0.5rem;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  color: var(--clr-blue-500);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 26% auto;
+  align-items: flex-start;
+}
+
+.domains .wrapper {
+  padding: 0.75rem 1rem;
+}
+
+.domain {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 500;
+  background-color: #fff;
+  border: unset;
+  position: unset;
+}
+
+.domain .title {
+  width: 85%;
+}
+
+.active {
+  text-decoration: none;
+  outline: 0;
+  background-color: #196ae5;
+  color: #ffffff;
+}
+
+.active img {
+  filter: brightness(0) invert(1);
+}
+
+.domain img {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.courses {
+  padding: 8px 16px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: unset;
+  max-width: 100%;
+  gap: 16px;
+}
