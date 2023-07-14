@@ -1,0 +1,44 @@
+.about {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1220px;
+  width: 90%;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.title {
+  line-height: 1.38;
+  text-align: center;
+}
+
+.title strong {
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-top: 20px;
+  line-height: 1.38;
+  font-weight: 600;
+  padding: 0pt 0pt 6pt;
+}
+
+.desc {
+  line-height: 1.38;
+  text-align: justify;
+  background-color: #f9f9f9;
+  padding: 0pt 0pt 6pt 0pt;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.readMore {
+  opacity: 0.87;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}

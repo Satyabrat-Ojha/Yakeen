@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.question {
+  cursor: pointer;
+  margin-bottom: 0;
+  padding: 22px 35px;
+  display: block;
+  font-size: 15px;
+  position: relative;
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question:hover {
+  background: hsla(0, 0%, 93.7%, 0.53);
+}
+
+.active .question {
+  font-weight: 600;
+}
+
+.icon {
+  content: "";
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  opacity: 0.8;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  transform: rotate(135deg);
+  transition: all 0.5s;
+}
+
+.active .icon {
+  transform: rotate(-45deg);
+}
+
+.answer {
+  border-bottom: 1px solid #ccc;
+  display: none;
+  overflow: hidden;
+  font-weight: 400;
+  padding: 16px 16px 16px 32px;
+  opacity: 0.9;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.active .answer {
+  display: block;
+}
