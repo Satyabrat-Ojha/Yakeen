@@ -102,3 +102,16 @@
   align-items: center;
   gap: 3px;
 }
+
+@media (max-width: 1024px) {
+  .copyright {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .right {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

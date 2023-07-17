@@ -1,5 +1,5 @@
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 80px;
   position: fixed !important;
   top: 0;
@@ -89,4 +89,28 @@
   border-radius: 4px;
   width: 100px;
   color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .right .programs {
+    display: none;
+  }
+  .left .search {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .left .browse {
+    display: none;
+  }
+  .left .search {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .left .search {
+    display: none;
+  }
 }
